@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Rouge+Script&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #632e03;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Kablammo", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    margin: 0;
+}
+
+main { 
+    font-family: "Rouge Script", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: clamp(20px, 4vw, 40px);
+}
+
+.max{
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+div p {
+    padding: 10px 50px;
+}
+
+#flex {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#flex p {
+    max-width: 60%;
+    margin: 0;
+}
+
+#flex img {
+    width: 10em;
+    height: auto;
+    border-radius: 10px;
+}
+
+#div2 {
+    background-color: #632e03;
+    color: #ffffff;
+    margin: 0;
+}
+
+#div3 {
+    background-image: url(/desafio/imgs/150\ Sem\ Título_20250412174447.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#div4 {
+    background-color: #e7c296;
+    background-image: url(/desafio/imgs/148\ Sem\ Título_20250412171320.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#div5 {
+    background-image: url(/desafio/imgs/151\ Sem\ Título_20250412174530.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+footer {
+    background-color: #632e03;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
